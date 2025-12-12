@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Summa" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/summapp_primary</item>
+        <item name="android:colorBackground">@color/summapp_background</item>
+        <item name="android:windowBackground">@color/summapp_background</item>
+
+        <item name="android:navigationBarColor">#E9D1AA</item>
+
+
+    </style>
+    <style name="Theme.Summa" parent="Base.Theme.Summa" />
+</resources>

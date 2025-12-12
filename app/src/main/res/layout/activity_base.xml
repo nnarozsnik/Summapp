@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+
+    tools:context=".BaseActivity">
+
+
+    <!-- Felső toolbar + tartalom -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Toolbar -->
+
+        <!-- fő tartalom -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FF9800"
+            android:backgroundTint="#FF9800"
+            android:paddingTop="40dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+            android:title=""
+            app:contentInsetStart="80dp" />
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E9D1AA">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/summapplogo6" />
+
+            <TextView
+                android:id="@+id/viewModeText"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:gravity="center"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- Oldalsó navigáció -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#EBDCC7"
+        app:headerLayout="@layout/nav_header"
+        app:itemIconSize="24dp"
+        app:itemTextAppearance="@style/NavDrawerTextStyle"
+        app:menu="@menu/navigation_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

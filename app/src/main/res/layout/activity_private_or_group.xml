@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9D1AA"
+    tools:context=".PrivateOrGroup">
+
+
+    <Button
+        android:id="@+id/privateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="120dp"
+        android:minHeight="48dp"
+        android:backgroundTint="#FF9800"
+        android:text="Privát"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/summappTextView"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/summappTextView"
+        app:layout_constraintTop_toBottomOf="@+id/summappTextView"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <TextView
+        android:id="@+id/summappTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="summapp"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/groupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:minWidth="120dp"
+        android:singleLine="true"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#FF9800"
+        android:text="Csoport"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/privateButton"
+        app:layout_constraintEnd_toEndOf="@+id/privateButton"
+        app:layout_constraintStart_toStartOf="@+id/privateButton" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="343dp"
+        android:layout_height="355dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425"
+        app:srcCompat="@drawable/summapp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

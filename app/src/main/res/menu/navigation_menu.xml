@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_orders"
+        android:title="Rendelések" />
+
+
+    <item
+        android:id="@+id/nav_notes"
+        android:title="Jegyzetek" />
+
+    <item
+        android:id="@+id/nav_contacts"
+        android:title="Vevők" />
+
+    <item
+        android:id="@+id/nav_manageData"
+        android:title="Új termék"
+        />
+
+    <item
+        android:id="@+id/nav_newMember"
+        android:title="Új tag hozzáadása" />
+
+
+    <item
+    android:id="@+id/nav_switch"
+    android:title="Privát / Csoport" />
+
+    <item
+    android:id="@+id/nav_groupSelection"
+    android:title="Csoportváltás" />
+
+
+    <item
+        android:id="@+id/nav_signout"
+        android:title="Kijelentkezés" />
+
+
+</menu>

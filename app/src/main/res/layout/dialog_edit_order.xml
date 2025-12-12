@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vevő:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editPartner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vevő"
+        android:inputType="textCapWords"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Termék:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Termék"
+        android:inputType="textCapSentences"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mennyiség:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mennyiség"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dátum:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dátum"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hozzáadta:" />
+
+    <TextView
+        android:id="@+id/addedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hozzáadta"
+        android:minHeight="48dp"/>
+
+</LinearLayout>

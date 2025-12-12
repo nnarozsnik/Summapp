@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "889006150797",
+    "project_id": "summa-2ba25",
+    "storage_bucket": "summa-2ba25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889006150797:android:fe29c1555bb764fc273ec4",
+        "android_client_info": {
+          "package_name": "hu.narnik.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889006150797-ebvptdct8o4n3g0nsjprmocufblmdqhr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hu.narnik.myapplication",
+            "certificate_hash": "28810688119dbe7f06f916a6de453c0e4aa03a5b"
+          }
+        },
+        {
+          "client_id": "889006150797-3lrasg5u8i08dncvp8fah8qpuoc1cg27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Syz1vyy3qNJSPDM1gd555xyVL-0E2eE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889006150797-3lrasg5u8i08dncvp8fah8qpuoc1cg27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
