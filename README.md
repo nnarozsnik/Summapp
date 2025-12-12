@@ -2,7 +2,7 @@ Summapp Android alkalmazás
 
 Célja: rendeléskövető alkamazás (elsődlegesen a Szegedi Nagybani Piac termelőinek).
 Az alapértelmezett dátum jelenleg a Szegedi Nagybani Piac igényeihez igazodik, de változtatható a dátum rendelés feltöltésnél:
-- de az alapértelmezett jelenleg nem változtatható.
+de az alapértelmezett jelenleg nem változtatható.
 A termékeket a felhasználó tudja létrehozni, így bármilyen kategóriában megfelelő lehet az alkalmazás.
 
 Az adatok Firebase Realtime database-be kerülnek feltöltésre.
